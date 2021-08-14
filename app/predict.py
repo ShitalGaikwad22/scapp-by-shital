@@ -5,8 +5,8 @@ from tensorflow.keras.models import Sequential
 from tensorflow.keras.layers import Conv2D, Flatten, Dense
 from tensorflow.keras.layers import MaxPool2D, BatchNormalization, Dropout
 
-UPLOAD_PATH = "./App/static/uploads/"
-WEIGHTS_PATH = "./App/static/model_weights/weights.hdf5"
+UPLOAD_PATH = "./app/static/uploads/"
+WEIGHTS_PATH = "./app/static/model_weights/weights.hdf5"
 
 IMG_RES = {
     "resize": (28, 28),
