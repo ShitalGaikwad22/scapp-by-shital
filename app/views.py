@@ -5,7 +5,7 @@ from flask import Blueprint, render_template, request, flash
 
 
 views = Blueprint("views", __name__)
-UPLOAD_FOLDER = "./App/static/uploads/"
+UPLOAD_FOLDER = "./app/static/uploads/"
 ALLOWED_EXTENSIONS = set(["png", "jpg", "jpeg"])
 
 
